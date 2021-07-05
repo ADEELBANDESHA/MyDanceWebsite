@@ -1,0 +1,48 @@
+extends basic.pug
+
+block scripts
+  script(src='/static/index.js')
+ 
+block style 
+    style
+      include ../static/style.css
+
+block content
+    section#introsection 
+      div#heading Welcome to My Dance Academy 
+      div.small  Eat Sleep Dance Repeat
+
+    section#Missionsection 
+      h2 Our Mission
+      div.card
+        h3 Dance Perfection 
+        div.card-box
+          div.card-img
+            img(src="/static/images/img.png", alt="")
+          div.card-content
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet corporis est quasi. Lorem, ipsum dolor.
+    
+      div.card
+        h3 Dance The Way You Like
+        div.card-box
+          div.card-img
+            img(src="/static/images/img1.png", alt="")
+          div.card-content
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet corporis est quasi. Lorem, ipsum dolor.
+    
+      div.card
+        h3 Expert Teaching
+        div.card-box
+          div.card-img
+            img(src="/static/images/img2.png", alt="")
+          div.card-content
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet corporis est quasi. Lorem, ipsum dolor.
+    
+    section#sponsorssection 
+      h2 Our Sponsers
+      div#sponsers
+        img(src="/static/images/logo1.jpg", alt="Apple" Class ="sponserimage")
+        img(src="/static/images/logo2.jpg", alt="Microsoft" Class ="sponserimage")
+        img(src="/static/images/logo3.png", alt="Hp" Class ="sponserimage")
+        img(src="/static/images/logo4.jpg", alt="Skype" Class ="sponserimage")
+

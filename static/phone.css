@@ -1,0 +1,137 @@
+#navbar{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: column;
+    float: center;
+    justify-content: center;
+    margin-top: 204px;
+}
+
+#navbar ul li a{
+    /* flex-direction: column; */
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+    justify-content: center;
+    font-size: 35px;
+
+}
+
+#home{
+    height: 387px;
+    padding: 3px 28px;
+    
+}
+#logo img{
+    height: 82px;
+    width: 95px;
+    filter: invert(1);
+    margin-top: 37px;
+}
+
+.headinglogo{
+   font-size: 4rem;
+   margin-top: 43px;
+   color: red;
+}
+#home::before{
+    height: 480px;
+}
+#heading{
+    font-size: 3rem;
+}
+#introsection{
+    height: 440px;
+}
+.small{
+    font-size: 400px;
+}
+
+.card{
+    width: 100%;
+    height: 250px;
+
+}
+.card h3{
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+#Missionsection{
+    display: flex;
+    flex-direction: column;
+    height: 890px;
+}
+#Missionsection h2{
+    font-size: 3rem;
+}
+.card-img img{
+    height: 95px;
+}
+
+.card-content p{
+    font-size: 31px;
+}
+
+#sponsorssection{
+    flex-wrap: wrap;
+    height: 780px;
+}
+#sponsorssection h2{
+    font-size: 3rem;
+}
+#sponsorssection img{
+    width: 405px;
+    padding: 12px;
+    height: 284px;
+}
+
+.myInput{
+    width: 80%;
+    padding: 27px;
+    margin: 7px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 18px;
+    font-size: 31px;
+    outline: none;
+}
+
+.container h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+}
+
+.container{
+    min-height: 85.5vh;
+    margin: 40px 0
+   
+}
+
+.btn{
+    border: 2px solid #695656;
+    padding: 21px 39px;
+    border-radius: 16px;
+    font-size: 42px;
+    cursor: pointer;
+    margin-bottom: 9px;
+    outline: none;
+    margin-top: 20px;
+}
+
+
+#menu-icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    position: relative;
+    height: 91px;
+    width: 98px;
+}

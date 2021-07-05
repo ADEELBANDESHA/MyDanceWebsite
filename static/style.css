@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+    font-size: 24px;
+    margin-right: 41px;
+    flex-direction: row;
+}
+.headinglogo{
+    margin: 0px 20px;
+    font-size: 2rem;
+}
+#logo img{
+    height: 46px;
+    width: 44px;
+    filter: invert(1);
+}
+#navbar{
+    background-color: rgb(0 0 0);
+    padding: 0.8rem 0.9rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    overflow: hidden;
+    height: 77px;
+    
+}
+/* #menu-icon{
+    cursor: pointer;
+    float: right;
+    height: 60px;
+    display: none;
+    width: 76px;
+    margin: -30px 2px  
+} */
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    float: center;
+    justify-content: center;
+    height: 0px;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    padding: 0.4rem 1.4rem;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+}
+#navbar li a:hover{
+    font-weight: bold;
+    color: red;
+
+}
+
+
+#introsection{
+    height: 20rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    background: center/cover no-repeat url("/static/bg.jpg");
+    font-family: 'Oswald', sans-serif;
+    font-size: 33px;
+    padding-bottom: 40px;
+}
+#introsection div.small{
+    font-size: 27px;
+}
+#sponsorssection{
+    height: 20rem;
+    background-color: rgb(228, 217, 216);
+}
+
+#sponsers{
+    height: 152px;
+    max-width: 1000px;
+    margin: 25px auto;
+}
+
+.sponserimage{
+    height: 80%;
+    margin: 24px;
+}
+#Missionsection{
+    height: 19rem;
+    width: 75%;
+    margin: auto;
+   
+    
+}
+#sponsorssection h2{
+    text-align: center;
+    padding-top: 18px;
+    font-size: 1.8rem;
+    font-family: 'Oswald', sans-serif;
+    
+}
+#Missionsection h2{
+    text-align: center;
+    padding-top: 18px;
+    font-size: 1.8rem;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 15px;
+    height: 176px;
+    display: inline-block;
+}
+.card-img{
+    height: 106px;
+    padding: 0px 14px;
+    margin: 0px 5px
+}
+.card-img img{
+    height: inherit;
+}
+.card h3{
+    text-align: center;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-content{
+    padding: 4px 0px;
+}
+
+.card-content p{
+    font-size: 16px;
+
+}
+
+.card-box{
+    display: flex;
+
+}
+#footer{
+    height: 2.5rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    
+}
